@@ -41,8 +41,8 @@ main {
   }
 
   #circle1-red {
-    width: 43.75rem;
-    height: 43.75rem;
+    width: 37.5rem;
+    height: 37.5rem;
 
     background: rgb(255, 0, 0);
     background: linear-gradient(
@@ -53,13 +53,13 @@ main {
     );
 
     #circle2-white {
-      width: 37.5rem;
-      height: 37.5rem;
+      width: 31.25rem;
+      height: 31.25rem;
       background: #ffffff;
 
       #circle3-red {
-        width: 31.25rem;
-        height: 31.25rem;
+        width: 25rem;
+        height: 25rem;
 
         background: rgb(255, 0, 0);
         background: linear-gradient(
@@ -70,8 +70,8 @@ main {
         );
 
         #circle4-blue {
-          width: 21.875rem;
-          height: 21.875rem;
+          width: 18.75rem;
+          height: 18.75rem;
 
           background: rgb(2, 0, 36);
           background: linear-gradient(
@@ -82,8 +82,8 @@ main {
           );
 
           #star {
-            width: 20.625rem;
-            height: 20.625rem;
+            width: 17.5rem;
+            height: 17.5rem;
             background: #ffffff;
             clip-path: polygon(
               50% 0%,

@@ -8,6 +8,7 @@
 body {
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 
 main {
@@ -49,38 +50,38 @@ main .circles {
 }
 
 main #circle1-red {
-  width: 43.75rem;
-  height: 43.75rem;
+  width: 37.5rem;
+  height: 37.5rem;
   background: red;
   background: -webkit-gradient(linear, left top, right top, from(red), color-stop(35%, #ff7070), to(red));
   background: linear-gradient(90deg, red 0%, #ff7070 35%, red 100%);
 }
 
 main #circle1-red #circle2-white {
-  width: 37.5rem;
-  height: 37.5rem;
+  width: 31.25rem;
+  height: 31.25rem;
   background: #ffffff;
 }
 
 main #circle1-red #circle2-white #circle3-red {
-  width: 31.25rem;
-  height: 31.25rem;
+  width: 25rem;
+  height: 25rem;
   background: red;
   background: -webkit-gradient(linear, left top, right top, from(red), color-stop(35%, #ff7070), to(red));
   background: linear-gradient(90deg, red 0%, #ff7070 35%, red 100%);
 }
 
 main #circle1-red #circle2-white #circle3-red #circle4-blue {
-  width: 21.875rem;
-  height: 21.875rem;
+  width: 18.75rem;
+  height: 18.75rem;
   background: #020024;
   background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(35%, #090979), to(#090979));
   background: linear-gradient(90deg, #020024 0%, #090979 35%, #090979 100%);
 }
 
 main #circle1-red #circle2-white #circle3-red #circle4-blue #star {
-  width: 20.625rem;
-  height: 20.625rem;
+  width: 17.5rem;
+  height: 17.5rem;
   background: #ffffff;
   -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
           clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
