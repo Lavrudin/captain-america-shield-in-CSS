@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #0045ff;
+  background: -webkit-gradient(linear, left top, right top, from(#0045ff), color-stop(16%, #0045ff), to(#fa0000));
+  background: linear-gradient(90deg, #0045ff 0%, #0045ff 16%, #fa0000 100%);
+}
+
+main .circles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  -webkit-filter: brightness(1.1);
+          filter: brightness(1.1);
+}
+
+main #circle1-red {
+  width: 43.75rem;
+  height: 43.75rem;
+  background: red;
+  background: -webkit-gradient(linear, left top, right top, from(red), color-stop(35%, #ff7070), to(red));
+  background: linear-gradient(90deg, red 0%, #ff7070 35%, red 100%);
+}
+
+main #circle1-red #circle2-white {
+  width: 37.5rem;
+  height: 37.5rem;
+  background: #ffffff;
+}
+
+main #circle1-red #circle2-white #circle3-red {
+  width: 31.25rem;
+  height: 31.25rem;
+  background: red;
+  background: -webkit-gradient(linear, left top, right top, from(red), color-stop(35%, #ff7070), to(red));
+  background: linear-gradient(90deg, red 0%, #ff7070 35%, red 100%);
+}
+
+main #circle1-red #circle2-white #circle3-red #circle4-blue {
+  width: 21.875rem;
+  height: 21.875rem;
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(35%, #090979), to(#090979));
+  background: linear-gradient(90deg, #020024 0%, #090979 35%, #090979 100%);
+}
+
+main #circle1-red #circle2-white #circle3-red #circle4-blue #star {
+  width: 20.625rem;
+  height: 20.625rem;
+  background: #ffffff;
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+          clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+/*# sourceMappingURL=style.css.map */
